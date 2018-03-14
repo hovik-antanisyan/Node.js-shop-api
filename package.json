@@ -15,10 +15,13 @@
   "author": "Hovik Antanisyan",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^1.0.3",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "jsonwebtoken": "^8.2.0",
     "mongoose": "^5.0.9",
     "morgan": "^1.9.0",
+    "multer": "^1.3.0",
     "nodemon": "^1.17.1"
   }
 }

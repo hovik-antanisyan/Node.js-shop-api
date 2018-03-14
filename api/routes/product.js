@@ -1,6 +1,34 @@
 const express = require('express');
 const router = express.Router();
 const Product = require('../models/product');
+const multer = require('multer');
+
+const storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+        cb(null, './uploads/');
+    },
+    filename: function (req, file, cb) {
+        const now = new Date().toISOString();
+        const date = now.replace(/:/g, '-');
+        cb(null, date + '-' + file.originalname);
+    }
+});
+
+const fileFilter = (req, file, cb) => {
+    if(file.mimetype === 'image/jpeg' || file.mimetype === 'image/png') {
+        cb(null, true);
+    } else {
+        cb(new Error('The image can accept only jpeg and png mimetypes.'), false);
+    }
+};
+
+const upload = multer({
+    storage: storage,
+    limits: {
+        fileSize: 1024 *1024 *5,
+    },
+    fileFilter: fileFilter
+});
 
 router.get('/', (req, res, next) => {
     Product.find({})
@@ -16,6 +44,7 @@ router.get('/', (req, res, next) => {
                     _id: item.id,
                     name: item.name,
                     price: item.price,
+                    productImage: item.productImage,
                     request: {
                         type: 'GET',
                         url: `http:localhost:3000/products/${item.id}`
@@ -33,11 +62,13 @@ router.get('/', (req, res, next) => {
         });
 });
 
-router.post('/', (req, res, next) => {
+router.post('/', upload.single('productImage'), (req, res, next) => {
     const product = new Product({
         name: req.body.name,
         price: req.body.price,
+        productImage: req.file.path
     });
+    console.log(req.file);
 
     product.save((err, product) => {
         if (err) {
@@ -82,13 +113,17 @@ router.get('/:id', (req, res, next) => {
     });
 });
 
-router.patch('/:id', (req, res, next) => {
+router.patch('/:id', upload.single('productImage'), (req, res, next) => {
     const productId = req.params.id;
     const productProps = {};
     for (const prop in req.body) {
         if (req.body.hasOwnProperty(prop))
             productProps[prop] = req.body[prop];
     }
+    if(req.file) {
+        productProps.productImage = req.file.path;
+    }
+    console.log(productProps);
 
     Product.update(
         {_id: productId},

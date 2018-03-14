@@ -6,11 +6,13 @@ const mongoose = require('mongoose');
 
 const productRoutes = require('./api/routes/product');
 const orderRoutes = require('./api/routes/order');
+const userRoutes = require('./api/routes/user');
 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/node-shop');
 
 app.use(morgan('dev'));
+app.use('/uploads', express.static('uploads'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
@@ -34,6 +36,7 @@ app.use((req, res, next) => {
 //Routes which handles requests
 app.use('/products', productRoutes);
 app.use('/orders', orderRoutes);
+app.use('/user', userRoutes);
 
 //Handling Not found errors
 app.use(function (req, res, next) {

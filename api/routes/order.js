@@ -5,10 +5,9 @@ const Order = require('../models/order');
 
 router.get('/', (req, res, next) => {
     Order.find({}, {__v: false})
-        .populate('product')
+        .populate('product', {__v: false})
         .exec()
         .then(orders => {
-            console.log(orders);
             res.json({
                 orders: orders.map((order) => {
                     return {
@@ -17,7 +16,7 @@ router.get('/', (req, res, next) => {
                         qty: order.qty,
                         request: {
                             type: 'GET',
-                            url: `http://localhost/api/orders/${order._id}`
+                            url: `http://localhost:3000/orders/${order._id}`
                         }
                     };
                 }),
@@ -48,11 +47,10 @@ router.post('/', (req, res, next) => {
 router.get('/:id', (req, res, next) => {
     const orderId = req.params.id;
 
-    Order.findById(orderId,  (err, order) => {
-            if (err) {
-                return next(err);
-            }
-                console.log(order);
+    Order.findById(orderId)
+        .populate('product', {__v: false})
+        .exec()
+        .then(order => {
             if (!order) {
                 return res.status(404).json({
                     message: 'No order found.'
@@ -65,11 +63,13 @@ router.get('/:id', (req, res, next) => {
                 product: order.product,
                 request: {
                     type: 'GET',
-                    url: `http://localhost/orders`
+                    url: `http://localhost:3000/orders`
                 }
             });
-        }
-    )
+        })
+        .catch(err => {
+            return next(err);
+        });
 });
 
 router.delete('/:id', (req, res, next) => {
