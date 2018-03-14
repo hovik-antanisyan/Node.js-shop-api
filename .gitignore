@@ -60,3 +60,9 @@ typings/
 
 # next.js build output
 .next
+
+#jetbrains idea
+.idea
+
+#uploads folder
+uploads
