@@ -1,9 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
-const Order = require('../models/order');
+const Order = require('../models/order')
+const userCheck = require('../middleware/check-auth');
 
-router.get('/', (req, res, next) => {
+router.get('/', userCheck, (req, res, next) => {
     Order.find({}, {__v: false})
         .populate('product', {__v: false})
         .exec()
@@ -28,7 +29,7 @@ router.get('/', (req, res, next) => {
         });
 });
 
-router.post('/', (req, res, next) => {
+router.post('/', userCheck, (req, res, next) => {
     const order = new Order({
         qty: req.body.qty,
         product: req.body.productId
@@ -44,7 +45,7 @@ router.post('/', (req, res, next) => {
         })
 });
 
-router.get('/:id', (req, res, next) => {
+router.get('/:id', userCheck, (req, res, next) => {
     const orderId = req.params.id;
 
     Order.findById(orderId)
@@ -72,7 +73,7 @@ router.get('/:id', (req, res, next) => {
         });
 });
 
-router.delete('/:id', (req, res, next) => {
+router.delete('/:id', userCheck, (req, res, next) => {
     const orderId = req.params.id;
 
     Order.findByIdAndRemove(orderId, {__v: false}, (err, order) => {

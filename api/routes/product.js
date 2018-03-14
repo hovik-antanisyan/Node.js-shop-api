@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Product = require('../models/product');
 const multer = require('multer');
+const userCheck = require('../middleware/check-auth');
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -62,13 +63,12 @@ router.get('/', (req, res, next) => {
         });
 });
 
-router.post('/', upload.single('productImage'), (req, res, next) => {
+router.post('/', userCheck, upload.single('productImage'), (req, res, next) => {
     const product = new Product({
         name: req.body.name,
         price: req.body.price,
         productImage: req.file.path
     });
-    console.log(req.file);
 
     product.save((err, product) => {
         if (err) {
@@ -113,7 +113,7 @@ router.get('/:id', (req, res, next) => {
     });
 });
 
-router.patch('/:id', upload.single('productImage'), (req, res, next) => {
+router.patch('/:id', userCheck, upload.single('productImage'), (req, res, next) => {
     const productId = req.params.id;
     const productProps = {};
     for (const prop in req.body) {
@@ -145,7 +145,7 @@ router.patch('/:id', upload.single('productImage'), (req, res, next) => {
         })
 });
 
-router.delete('/:id', (req, res, next) => {
+router.delete('/:id', userCheck, (req, res, next) => {
     const productId = req.params.id;
 
     Product.findByIdAndRemove(productId, {__v: false}, (err, product) => {
