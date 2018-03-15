@@ -62,7 +62,7 @@ typings/
 .next
 
 #jetbrains idea
-.idea
+.idea/
 
 #uploads folder
-uploads
+uploads/
