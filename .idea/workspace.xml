@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2221f4e0-891c-4956-94fa-9c62ee0c7901" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/middleware/check-auth.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/controllers/order.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/controllers/product.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/controllers/user.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/api/routes/order.js" afterPath="$PROJECT_DIR$/api/routes/order.js" />
       <change beforePath="$PROJECT_DIR$/api/routes/product.js" afterPath="$PROJECT_DIR$/api/routes/product.js" />
       <change beforePath="$PROJECT_DIR$/api/routes/user.js" afterPath="$PROJECT_DIR$/api/routes/user.js" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,21 +19,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/controllers/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/routes/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="153">
+              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -42,68 +42,18 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
+            <state relative-caret-position="97">
               <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/models/product.js">
+      <file leaf-file-name="Exchange.php" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/scp48786/home/bitrix/ext_www/regiongold.ru/local/php_interface/include/Exchange.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="check-auth.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/middleware/check-auth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/routes/product.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="147" column="33" lean-forward="false" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/models/order.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/routes/order.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/routes/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="385">
+              <caret line="1057" column="56" lean-forward="false" selection-start-line="1057" selection-start-column="56" selection-end-line="1057" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -120,8 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>012-210210-32-85_sapfir_</find>
-      <find>ccc</find>
       <find>$arProduct-&gt;Код</find>
       <find>&lt;Товар&gt;</find>
       <find>012-210210-32-85_sapfir_kubcirkonii_17</find>
@@ -150,10 +98,13 @@
       <find>$skuList</find>
       <find>upload</find>
       <find>consol</find>
+      <find>deactivateP</find>
+      <find>UsersContreller</find>
     </findStrings>
     <replaceStrings>
       <replace>http://localhost:3000/</replace>
       <replace>$offerList</replace>
+      <replace>UserContreller</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -172,7 +123,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp54025/home/bitrix/ext_www/regiongold.ru/local/php_interface/include/Exchange_13.-03-2018.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp56501/personal/subscribe/index.php" />
-        <option value="$PROJECT_DIR$/../../../76 973.xml" />
+        <option value="D:/76 973.xml" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp48652/home/bitrix/ext_www/regiongold.ru/local/php_interface/include/nocomiss_yandex_run.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp32529/home/bitrix/ext_www/regiongold.ru/local/php_interface/include/Exchange.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp54866/home/bitrix/ext_www/regiongold.ru/local/php_interface/include/Exchange.php" />
@@ -183,10 +134,16 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/api/models/user.js" />
         <option value="$PROJECT_DIR$/middleware/check-auth.js" />
-        <option value="$PROJECT_DIR$/api/routes/user.js" />
         <option value="$PROJECT_DIR$/api/middleware/check-auth.js" />
-        <option value="$PROJECT_DIR$/api/routes/product.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp05288/home/bitrix/ext_www/regiongold.ru/exchange/deactivate.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp07378/home/bitrix/ext_www/regiongold.ru/exchange/deactivate_prods.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp48786/home/bitrix/ext_www/regiongold.ru/local/php_interface/include/Exchange.php" />
+        <option value="$PROJECT_DIR$/api/controllers/order.js" />
         <option value="$PROJECT_DIR$/api/routes/order.js" />
+        <option value="$PROJECT_DIR$/api/controllers/product.js" />
+        <option value="$PROJECT_DIR$/api/routes/product.js" />
+        <option value="$PROJECT_DIR$/api/routes/user.js" />
+        <option value="$PROJECT_DIR$/api/controllers/user.js" />
       </list>
     </option>
   </component>
@@ -209,7 +166,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -232,46 +189,41 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Node.js-shop-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Node.js-shop-api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="node-api-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-api-shop" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Node.js-shop-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Node.js-shop-api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="node-api-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-api-shop" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Node.js-shop-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Node.js-shop-api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="node-api-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-api-shop" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="middleware" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Node.js-shop-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Node.js-shop-api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="node-api-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-api-shop" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Node.js-shop-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Node.js-shop-api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="node-api-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-api-shop" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Node.js-shop-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Node.js-shop-api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="uploads" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,13 +272,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88642000" />
+    <option name="totallyTimeSpent" value="94967000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25037822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -335,7 +287,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14977308" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3618421" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26956522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -370,41 +322,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/routes/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodemon.json" />
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp13304/bitrix/templates/empty/components/bitrix/sale.personal.section/my_personal/order_detail.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp14723/bitrix/templates/empty/components/bitrix/sale.personal.order.detail/my_personal_detail/template.php" />
     <entry file="file://$PROJECT_DIR$/uploads/cpu-images.jpg" />
     <entry file="file://$PROJECT_DIR$/uploads/2018-03-13T09-45-30.540Z-92e80c70f9b279e326cd6423baf60d9b.jpg" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp56501/personal/subscribe/index.php" />
@@ -420,11 +337,11 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp32529/home/bitrix/ext_www/regiongold.ru/local/php_interface/include/Exchange.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp16634/home/bitrix/ext_www/regiongold.ru/exchange/log/Exchange76 972.log" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp54025/home/bitrix/ext_www/regiongold.ru/local/php_interface/include/Exchange_13.-03-2018.php" />
-    <entry file="file://$PROJECT_DIR$/../../../76 982.xml" />
+    <entry file="file://D:/76 982.xml" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp16584/home/bitrix/ext_www/regiongold.ru/exchange/log/Exchange76 979.log" />
-    <entry file="file://$PROJECT_DIR$/../../../76 973.xml" />
-    <entry file="file://$PROJECT_DIR$/../../../76 967.xml" />
-    <entry file="file://$PROJECT_DIR$/../../../prod_exch.php" />
+    <entry file="file://D:/76 973.xml" />
+    <entry file="file://D:/76 967.xml" />
+    <entry file="file://D:/prod_exch.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp46428/home/bitrix/ext_www/regiongold.ru/exchange/log/Exchange76 967.log" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp36664/home/bitrix/ext_www/regiongold.ru/exchange/log/Exchange76 970.log" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp58652/home/bitrix/ext_www/regiongold.ru/test/index.php" />
@@ -440,56 +357,17 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="545">
-          <caret line="67" column="7" lean-forward="false" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/2018-03-14T19-36-46.446Z-14915542_1836138063286538_6401494407841041312_n.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/2018-03-14T19-37-28.011Z-pexels-photo-30588-large-768x513.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/2018-03-14T19-36-46.446Z-14915542_1836138063286538_6401494407841041312_n.jpg" />
+    <entry file="file://$PROJECT_DIR$/uploads/2018-03-14T19-37-28.011Z-pexels-photo-30588-large-768x513.jpg" />
     <entry file="file://$PROJECT_DIR$/api/middleware/check-auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="147" column="33" lean-forward="false" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -502,6 +380,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/models/order.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -510,10 +396,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp05288/home/bitrix/ext_www/regiongold.ru/exchange/deactivate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp07378/home/bitrix/ext_www/regiongold.ru/exchange/deactivate_prods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp06880/home/bitrix/ext_www/regiongold.ru/exchange/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp48786/home/bitrix/ext_www/regiongold.ru/local/php_interface/include/Exchange.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="1057" column="56" lean-forward="false" selection-start-line="1057" selection-start-column="56" selection-end-line="1057" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp07854/home/bitrix/ext_www/regiongold.ru/exchange/orders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/routes/order.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+        <state relative-caret-position="34">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="6" lean-forward="false" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1280">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/routes/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding />
         </state>
       </provider>
