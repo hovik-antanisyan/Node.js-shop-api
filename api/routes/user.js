@@ -25,7 +25,6 @@ router.post('/signup', (req, res, next) => {
 });
 
 router.post('/signin', (req, res, next) => {
-    console.log(555);
     User.findOne({email: req.body.email}, (err, user) => {
         if(err) {
             return next(err);
